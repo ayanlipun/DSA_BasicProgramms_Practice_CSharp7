@@ -1,4 +1,4 @@
-﻿namespace DSA_BasicProgramms_Practice_Library
+﻿namespace DSA_BasicProgramms_Practice_Library.DSA
 {
     public class FibonacciSequence
     {
