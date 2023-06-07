@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="CSharpConcepts\" />
-    <Folder Include="DesignPatterns\" />
     <Folder Include="DesignPrinciples\" />
   </ItemGroup>
 

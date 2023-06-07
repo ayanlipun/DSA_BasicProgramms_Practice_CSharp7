@@ -1,4 +1,5 @@
-﻿using DSA_BasicProgramms_Practice_Library.DSA;
+﻿using DSA_BasicProgramms_Practice_Library.DesignPatterns.BuilderDesignpattern;
+using DSA_BasicProgramms_Practice_Library.DSA;
 
 
 namespace DSA_BasicProgramms_Practice_CSharp7
@@ -8,9 +9,11 @@ namespace DSA_BasicProgramms_Practice_CSharp7
         static void Main(string[] args)
         {
 
+            MainExecBuilderDesignPattren.GetBuilderDesignPattrenExecution();
+
             //Counting_frequencies_of_array_elements.GetSolution1();
 
-            Counting_frequencies_of_array_elements.GetSolution2();
+            //Counting_frequencies_of_array_elements.GetSolution2();
 
             // int[] arr = new int[] { 2, 3, 3, 2, 5 };
             //Count_frequencies_of_all_elements_in_array_in_O_1__extra_space_and_O_n__time.GetSoulution1(arr);
