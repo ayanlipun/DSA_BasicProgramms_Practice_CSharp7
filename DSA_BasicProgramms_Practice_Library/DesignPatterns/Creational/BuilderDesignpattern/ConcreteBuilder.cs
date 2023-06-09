@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.BuilderDesignpattern
+namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.BuilderDesignpattern
 {
     public class ConcreteBuilder : IBuilder
     {
@@ -12,33 +12,33 @@ namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.BuilderDesignpatter
 
         public ConcreteBuilder()
         {
-            this.Reset();
+            Reset();
         }
 
         private void Reset()
         {
-           this._product = new Product();
+            _product = new Product();
         }
 
         public void BuildPartA()
         {
-            this._product.Add("PartA");
+            _product.Add("PartA");
         }
 
         public void BuildPartB()
         {
-            this._product.Add("PartB");
+            _product.Add("PartB");
         }
 
         public void BuildPartC()
         {
-            this._product.Add("PartC");
+            _product.Add("PartC");
         }
 
         public Product GetProduct()
         {
-            Product result = this._product;
-            this.Reset();
+            Product result = _product;
+            Reset();
             return result;
         }
     }

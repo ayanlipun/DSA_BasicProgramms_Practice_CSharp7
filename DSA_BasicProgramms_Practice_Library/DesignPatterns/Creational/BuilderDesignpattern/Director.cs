@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.BuilderDesignpattern
+namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.BuilderDesignpattern
 {
     public class Director
     {
@@ -18,13 +18,13 @@ namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.BuilderDesignpatter
 
         public void BuildMinimalVariableProduct()
         {
-            this._builder.BuildPartA();
+            _builder.BuildPartA();
         }
         public void BuildFullFeatureProduct()
         {
-            this._builder.BuildPartA();
-            this._builder.BuildPartB();
-            this._builder.BuildPartC();
+            _builder.BuildPartA();
+            _builder.BuildPartB();
+            _builder.BuildPartC();
         }
 
     }

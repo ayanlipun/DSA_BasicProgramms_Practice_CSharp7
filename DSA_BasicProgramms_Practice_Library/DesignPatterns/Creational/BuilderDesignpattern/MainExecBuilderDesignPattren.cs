@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.BuilderDesignpattern
+namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.BuilderDesignpattern
 {
     public class MainExecBuilderDesignPattren
     {

@@ -1,6 +1,8 @@
-﻿using DSA_BasicProgramms_Practice_Library.DesignPatterns.BuilderDesignpattern;
+﻿using DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.BuilderDesignpattern;
+using DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.AbstractFactoryDesignPattren;
 using DSA_BasicProgramms_Practice_Library.DSA;
-
+using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Adapter;
+using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Adapter2;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -8,8 +10,12 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
+            MainExecutionAdapterDesignPattren2.MainExecutionAdapterDesignPattren();
+            //MainExecutionAdapterDesignPattren.GetAdapterDesignpattrenExecution();
 
-            MainExecBuilderDesignPattren.GetBuilderDesignPattrenExecution();
+            //MainExecAbstractFactoryDesignPattren.GetAbstractFactoryDesignpattrenExecution();
+
+            //MainExecBuilderDesignPattren.GetBuilderDesignPattrenExecution();
 
             //Counting_frequencies_of_array_elements.GetSolution1();
 
