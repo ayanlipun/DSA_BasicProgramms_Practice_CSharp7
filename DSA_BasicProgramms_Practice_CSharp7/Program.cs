@@ -3,6 +3,7 @@ using DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.AbstractFact
 using DSA_BasicProgramms_Practice_Library.DSA;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Adapter;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Adapter2;
+using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Facade;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -10,7 +11,8 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            MainExecutionAdapterDesignPattren2.MainExecutionAdapterDesignPattren();
+            MainExecFacadeDesignpattern.GetFacadeDesignpattrenExecution();
+            //MainExecutionAdapterDesignPattren2.MainExecutionAdapterDesignPattren();
             //MainExecutionAdapterDesignPattren.GetAdapterDesignpattrenExecution();
 
             //MainExecAbstractFactoryDesignPattren.GetAbstractFactoryDesignpattrenExecution();
