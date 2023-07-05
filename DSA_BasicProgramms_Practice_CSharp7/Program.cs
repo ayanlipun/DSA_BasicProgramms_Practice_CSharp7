@@ -5,6 +5,8 @@ using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Adapter;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Adapter2;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Facade;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.SingletonDesignPattren;
+using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Methods_In_CSharp_which_take_lambdas_as_parameters;
+using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Yield_In_CSharp;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -12,7 +14,10 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            MainExecSingletonDesignPattren.GetSingletonDesignPattrenExecution();
+            MainExecYield.GetYieldOutput();
+
+            //MainExecLamdaParameterInMethod.GetLamdaParameterInMethodToExecute();
+            //MainExecSingletonDesignPattren.GetSingletonDesignPattrenExecution();
 
             //MainExecFacadeDesignpattern.GetFacadeDesignpattrenExecution();
             // MainExecutionAdapterDesignPattren2.MainExecutionAdapterDesignPattren();
