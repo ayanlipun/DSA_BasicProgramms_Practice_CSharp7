@@ -7,6 +7,8 @@ using DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Facade;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.SingletonDesignPattren;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Methods_In_CSharp_which_take_lambdas_as_parameters;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Yield_In_CSharp;
+using DSA_BasicProgramms_Practice_Library.LINQ.InnerJoin;
+using DSA_BasicProgramms_Practice_Library.LINQ.Pagging;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -14,7 +16,10 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            MainExecYield.GetYieldOutput();
+            PaggingLINQ.ExecPaggingLINQ();
+
+            // InnerJoinLINQ.ExecInnerJoinLINQ();
+            //MainExecYield.GetYieldOutput();
 
             //MainExecLamdaParameterInMethod.GetLamdaParameterInMethodToExecute();
             //MainExecSingletonDesignPattren.GetSingletonDesignPattrenExecution();
