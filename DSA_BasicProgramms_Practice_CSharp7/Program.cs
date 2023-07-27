@@ -12,6 +12,9 @@ using DSA_BasicProgramms_Practice_Library.LINQ.Pagging;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.MethodOverloading_And_Overriding;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.FluentApi;
+using DSA_BasicProgramms_Practice_Library.Threading.ThreadProgramTestByDanskeIT;
+using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Array;
+using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Constructor;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -19,9 +22,14 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            // MainExecutionFluentApi.ExecFluentApi();
+            MainExecMethodOverrideAndHidingTricky.ExecMethodOverrideAndHidingTricky();
+            //MainExecParent_Child_Relation.ExecParentChildRelationInConstructor();
+            //MainExecConstructorForAbstractClass.ExecutionConstructorForAbstractClass();
+            //ArrayOccuranceCount.ExecArrayOccuranceCount();
+            //MainExecThreadTaskProgram.ExecThreadingAndTaskProgram();
+            //MainExecutionFluentApi.ExecFluentApi();
 
-            // MainExecutionOverloadding.ExecMainExecutionOverloadding();
+            //MainExecutionOverloadding.ExecMainExecutionOverloadding();
 
             //MainExecutionRetrydesignPattren.ExecuteRetryDesignPattern();
 

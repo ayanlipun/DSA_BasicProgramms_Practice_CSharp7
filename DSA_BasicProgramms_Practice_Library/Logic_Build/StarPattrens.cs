@@ -2,7 +2,16 @@
 {
     public class StarPattrens
     {
-        public void GetLeftSidedTrianglePattern(int number)
+
+        /*
+         Programm make * pattrens as below
+              *
+              **
+              ***
+              ****
+              *****         
+         */
+        public static void GetLeftSidedTrianglePattern(int number)
         {
             for (int row = 1; row <= number; row++)
             {
@@ -17,7 +26,17 @@
                 Console.WriteLine();
             }
         }
-        public void GetRightSidedTrianglePattern(int number)
+
+
+        /*
+        Programm make * pattrens as below
+                    *
+                   **
+                  ***
+                 ****
+                *****
+        */
+        public static void GetRightSidedTrianglePattern(int number)
         {
             for (int row = 1; row <= number; row++)
             {
@@ -32,7 +51,17 @@
                 Console.WriteLine();
             }
         }
-        public void GetPyramidPattern(int number)
+
+
+        /*
+       Programm to make * pattrens as below
+                   *
+                  ***
+                 *****
+                *******
+               *********
+       */
+        public static void GetPyramidPattern(int number)
         {
             for (int row = 1; row <= number; row++)
             {
@@ -41,6 +70,69 @@
                     Console.Write(" ");
                 }
                 for (int col = row; col <= number; col++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        /*         
+           Programm to make * pattrens as below
+                   *
+                   *#
+                   ***
+                   ****#
+                   ******         
+        */
+
+        public static void StarPattren1()
+        {
+            Console.WriteLine("Enter the input");
+            int input = Convert.ToInt32(Console.ReadLine());
+
+            for (int row = 0; row < input; row++)
+            {
+                for (int col = 0; col < input; col++)
+                {
+                    if (row % 2 == 0)
+                    {
+                        if (col == row - 1)
+                        {
+                            Console.Write("#");
+                        }
+                        else
+                        {
+                            Console.Write("*");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("*");
+                    }
+                }
+            }
+        }
+
+        /*
+         
+         * 
+         Programm to make * pattrens as below
+                 *****
+                 ****
+                 ***
+                 **
+                 *         
+         */
+
+        public static void StarPattren2()
+        {
+            Console.WriteLine("Enter the input");
+            int input = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= input; i++)
+            {
+                for (int j = input; j >= i; j--)
                 {
                     Console.Write("*");
                 }
