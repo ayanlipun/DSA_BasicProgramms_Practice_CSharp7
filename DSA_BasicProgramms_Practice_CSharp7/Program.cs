@@ -11,6 +11,7 @@ using DSA_BasicProgramms_Practice_Library.LINQ.InnerJoin;
 using DSA_BasicProgramms_Practice_Library.LINQ.Pagging;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.MethodOverloading_And_Overriding;
+using DSA_BasicProgramms_Practice_Library.CSharpConcepts.FluentApi;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -18,7 +19,9 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            MainExecutionOverloadding.ExecMainExecutionOverloadding();
+            // MainExecutionFluentApi.ExecFluentApi();
+
+            // MainExecutionOverloadding.ExecMainExecutionOverloadding();
 
             //MainExecutionRetrydesignPattren.ExecuteRetryDesignPattern();
 
