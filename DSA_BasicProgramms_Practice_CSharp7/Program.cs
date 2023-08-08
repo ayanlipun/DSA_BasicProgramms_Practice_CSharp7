@@ -16,6 +16,8 @@ using DSA_BasicProgramms_Practice_Library.Threading.ThreadProgramTestByDanskeIT;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Array;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Constructor;
 using DSA_BasicProgramms_Practice_Library.FileHandling;
+using DSA_BasicProgramms_Practice_Library.CSharpConcepts.DelegatesAndEvents;
+using DSA_BasicProgramms_Practice_Library.CSharpConcepts.DelegatesAndEvents.GenericDelegates;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -23,7 +25,15 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            StreamWriterAndStreamReader.ExecStreamWriterAndStreamReader();
+            DelegateUsingAnonymousMethod.ExecDelegateUsingAnonymousMethod();
+            //GenericDelegatesWithLambdaExpression.ExecGenericDelegatesWithLambdaExpression();
+            //GenericDelegatesExample1.ExecGenericDelegatesExample1();
+            //DelegateRealTimeExample2.ExecDelegateRealTimeExample2();
+            //DelegateRealTimeExample1.ExecDelegateRealTimeExample1();
+            //MulticastDelegatesWithReturnType.ExecMulticastDelegatesWithReturnType();
+            //MainExecMulticastDelegate1.ExecMulticastDelegate1();
+            //MainExecMulticastDelegate.ExecMulticastDelegate();
+            //StreamWriterAndStreamReader.ExecStreamWriterAndStreamReader();
             //LimitNumberOfConcurrentTasks_SemaphoreSlim_RealTime.ExecLimitNumberOfConcurrentTasks_SemaphoreSlim_RealTime();
             //LimitNumberOfConcurrentTasks_SemaphoreSlim.ExecLimitNumberOfConcurrentTasks_SemaphoreSlim();
             //Offloading_MultipleTaskByTask_Run.ExecOffloading_MultipleTaskByTask_Run();
