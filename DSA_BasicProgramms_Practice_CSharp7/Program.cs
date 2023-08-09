@@ -25,7 +25,8 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            DelegateUsingAnonymousMethod.ExecDelegateUsingAnonymousMethod();
+            CustomEventArgsExample.ExecCustomEventArgsExample();
+            //DelegateUsingAnonymousMethod.ExecDelegateUsingAnonymousMethod();
             //GenericDelegatesWithLambdaExpression.ExecGenericDelegatesWithLambdaExpression();
             //GenericDelegatesExample1.ExecGenericDelegatesExample1();
             //DelegateRealTimeExample2.ExecDelegateRealTimeExample2();

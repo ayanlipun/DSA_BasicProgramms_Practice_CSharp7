@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DSA_BasicProgramms_Practice_Library.CSharpConcepts.DelegatesAndEvents
+﻿namespace DSA_BasicProgramms_Practice_Library.CSharpConcepts.DelegatesAndEvents
 {
     public delegate string GreetingDelegate(string name);
     public class LambdaExpressionsForDelegate
