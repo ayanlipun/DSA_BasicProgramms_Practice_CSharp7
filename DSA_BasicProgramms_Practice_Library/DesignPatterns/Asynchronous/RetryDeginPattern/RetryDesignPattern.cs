@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous
+namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous.RetryDeginPattern
 {
     public class RetryDesignPattern
     {

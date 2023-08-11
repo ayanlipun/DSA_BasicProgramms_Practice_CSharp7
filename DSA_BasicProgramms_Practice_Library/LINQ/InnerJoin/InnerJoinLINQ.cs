@@ -18,7 +18,7 @@ namespace DSA_BasicProgramms_Practice_Library.LINQ.InnerJoin
                     (employee, address) => new
                     {
                         EmployeeName = employee.Name,
-                        address.AddressLine
+                        AddressLine = address.AddressLine
                     }).ToList();
 
             foreach (var employee in result)

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="CSharpConcepts\Generics\" />
     <Folder Include="DesignPatterns\Behavioral\" />
     <Folder Include="DesignPrinciples\" />
   </ItemGroup>
