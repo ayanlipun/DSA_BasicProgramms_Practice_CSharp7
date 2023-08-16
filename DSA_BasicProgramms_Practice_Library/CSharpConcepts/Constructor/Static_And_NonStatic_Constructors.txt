@@ -1,0 +1,12 @@
+﻿Points
+------
+
+1. If a constructor is explicitly declared by using the static modifier, we call that constructor a static constructor whereas the rest of the others are called non-static constructors only. 
+
+2. Constructors are responsible for initializing the fields or variables of a class. Static Fields/Variables are initialized by static constructors and non-static fields/variables are initialized by non-static or instance constructors in C#
+
+3. Static constructors are implicitly called whereas non-static constructors are explicitly called.
+
+4. Static Constructors execute immediately once the execution of a class start and moreover, it is the first block of code to run under a class whereas non-static constructors execute only after creating the instance of the class as well as each and every time the instance of the class is created.
+
+5. Static Constructors are executed only once whereas the non-static constructors are executed 0 or n number of times depending on the number of instances we created for the class.

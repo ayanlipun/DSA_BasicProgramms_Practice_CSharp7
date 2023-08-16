@@ -19,6 +19,7 @@ using DSA_BasicProgramms_Practice_Library.CSharpConcepts.DelegatesAndEvents;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.DelegatesAndEvents.GenericDelegates;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous.RetryDeginPattern;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous.OnlyOnePattren;
+using DSA_BasicProgramms_Practice_Library.CSharpConcepts.ShallowCopyAndDeepCopy;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -26,7 +27,12 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            MainExecOnlyOneDesignPattren.ExecMainExecOnlyOneDesignPattren();
+            MainExecPrivateConstructor.ExecMainExecPrivateConstructor();
+            //MainExecStaticAndNonStaticConstructor1.ExecMainExecStaticAndNonStaticConstructor1();
+            //MainExecStaticAndNonStaticConstructor.ExecMainExecStaticAndNonStaticConstructor();
+            //MainExecDeepCopy.ExecMainExecDeepCopy();
+            //MainExecShallowCopy.ExecMainExecShallowCopy();
+            //MainExecOnlyOneDesignPattren.ExecMainExecOnlyOneDesignPattren();
             //CustomEventArgsExample.ExecCustomEventArgsExample();
             //DelegateUsingAnonymousMethod.ExecDelegateUsingAnonymousMethod();
             //GenericDelegatesWithLambdaExpression.ExecGenericDelegatesWithLambdaExpression();
