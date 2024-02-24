@@ -21,6 +21,7 @@ using DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous.RetryDegin
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous.OnlyOnePattren;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.ShallowCopyAndDeepCopy;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Indexer;
+using DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.FactoryDesignPattern;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -28,7 +29,8 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            MainExecIndexer.ExecMainExecIndexer();
+            new MainExecFactoryDesignPattern().ExecFactoryDesignPattern();
+            //MainExecIndexer.ExecMainExecIndexer();
             //MainExecPrivateConstructor.ExecMainExecPrivateConstructor();
             //MainExecStaticAndNonStaticConstructor1.ExecMainExecStaticAndNonStaticConstructor1();
             //MainExecStaticAndNonStaticConstructor.ExecMainExecStaticAndNonStaticConstructor();
@@ -49,7 +51,7 @@ namespace DSA_BasicProgramms_Practice_CSharp7
             //LimitNumberOfConcurrentTasks_SemaphoreSlim.ExecLimitNumberOfConcurrentTasks_SemaphoreSlim();
             //Offloading_MultipleTaskByTask_Run.ExecOffloading_MultipleTaskByTask_Run();
             //MultipleTasks.ExecMultipleTasks();
-            //MainExecMethodOverrideAndHidingTricky.ExecMethodOverrideAndHidingTricky();
+            // MainExecMethodOverrideAndHidingTricky.ExecMethodOverrideAndHidingTricky();
             //MainExecParent_Child_Relation.ExecParentChildRelationInConstructor();
             //MainExecConstructorForAbstractClass.ExecutionConstructorForAbstractClass();
             //ArrayOccuranceCount.ExecArrayOccuranceCount();

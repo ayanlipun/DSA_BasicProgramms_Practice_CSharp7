@@ -40,7 +40,7 @@ namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Adapter2
             {
                 case "water": return "H20";
                 case "benzene": return "C6H6";
-                case "ethanol": return "C2H5OH";
+                case "ethanol": return "C2H5OH";        
                 default: return "";
             }
         }
