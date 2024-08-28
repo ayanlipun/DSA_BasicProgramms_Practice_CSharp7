@@ -22,6 +22,7 @@ using DSA_BasicProgramms_Practice_Library.DesignPatterns.Asynchronous.OnlyOnePat
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.ShallowCopyAndDeepCopy;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Indexer;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.FactoryDesignPattern;
+using DSA_BasicProgramms_Practice_Library.Requirements_Logic;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -29,7 +30,8 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-            new MainExecFactoryDesignPattern().ExecFactoryDesignPattern();
+            MultiLanguageRead.GetLanguageConverted();
+            //new MainExecFactoryDesignPattern().ExecFactoryDesignPattern();
             //MainExecIndexer.ExecMainExecIndexer();
             //MainExecPrivateConstructor.ExecMainExecPrivateConstructor();
             //MainExecStaticAndNonStaticConstructor1.ExecMainExecStaticAndNonStaticConstructor1();
