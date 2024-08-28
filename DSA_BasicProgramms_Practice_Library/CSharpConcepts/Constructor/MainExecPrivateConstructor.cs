@@ -11,6 +11,8 @@ namespace DSA_BasicProgramms_Practice_Library.CSharpConcepts.Constructor
         public static void ExecMainExecPrivateConstructor()
         {
             Child obj = new Child();
+
+            Parent obj1 = new Child();
         }
     }
 

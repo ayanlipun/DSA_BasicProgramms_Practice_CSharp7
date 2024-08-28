@@ -8,7 +8,6 @@ namespace DSA_BasicProgramms_Practice_Library.DesignPatterns.Structural.Facade
 {
     public class Client
     {
-
         public static void ClientCode(Facade facade)
         {
             Console.WriteLine(facade.Operation());
