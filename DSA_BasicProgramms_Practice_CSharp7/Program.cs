@@ -23,6 +23,7 @@ using DSA_BasicProgramms_Practice_Library.CSharpConcepts.ShallowCopyAndDeepCopy;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Indexer;
 using DSA_BasicProgramms_Practice_Library.DesignPatterns.Creational.FactoryDesignPattern;
 using DSA_BasicProgramms_Practice_Library.CSharpConcepts.Multilingual;
+using DSA_BasicProgramms_Practice_Library.Requirements_Logic;
 
 namespace DSA_BasicProgramms_Practice_CSharp7
 {
@@ -30,7 +31,8 @@ namespace DSA_BasicProgramms_Practice_CSharp7
     {
         static void Main(string[] args)
         {
-
+            MultiLanguageRead.GetLanguageConverted();
+            //new MainExecFactoryDesignPattern().ExecFactoryDesignPattern();
             //SingletonDesignPatternRealTimeExample.ExecSingletonDesignPatternRealTimeExample();
             // ChineseEncoding.Index();
             // new MainExecFactoryDesignPattern().ExecFactoryDesignPattern();
@@ -68,7 +70,7 @@ namespace DSA_BasicProgramms_Practice_CSharp7
             //MainExecYield.GetYieldOutput();
             //MainExecLamdaParameterInMethod.GetLamdaParameterInMethodToExecute();
             //MainExecSingletonDesignPattren.GetSingletonDesignPattrenExecution();
-            MainExecFacadeDesignpattern.GetFacadeDesignpattrenExecution();
+            //MainExecFacadeDesignpattern.GetFacadeDesignpattrenExecution();
             // MainExecutionAdapterDesignPattren2.MainExecutionAdapterDesignPattren();
             //MainExecutionAdapterDesignPattren.GetAdapterDesignpattrenExecution();
             //MainExecAbstractFactoryDesignPattren.GetAbstractFactoryDesignpattrenExecution();
