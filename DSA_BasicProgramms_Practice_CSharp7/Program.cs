@@ -33,7 +33,6 @@ namespace DSA_BasicProgramms_Practice_CSharp7
         {
             MultiLanguageRead.GetLanguageConverted();
             //new MainExecFactoryDesignPattern().ExecFactoryDesignPattern();
-
             //SingletonDesignPatternRealTimeExample.ExecSingletonDesignPatternRealTimeExample();
             // ChineseEncoding.Index();
             // new MainExecFactoryDesignPattern().ExecFactoryDesignPattern();
@@ -71,7 +70,7 @@ namespace DSA_BasicProgramms_Practice_CSharp7
             //MainExecYield.GetYieldOutput();
             //MainExecLamdaParameterInMethod.GetLamdaParameterInMethodToExecute();
             //MainExecSingletonDesignPattren.GetSingletonDesignPattrenExecution();
-            MainExecFacadeDesignpattern.GetFacadeDesignpattrenExecution();
+            //MainExecFacadeDesignpattern.GetFacadeDesignpattrenExecution();
             // MainExecutionAdapterDesignPattren2.MainExecutionAdapterDesignPattren();
             //MainExecutionAdapterDesignPattren.GetAdapterDesignpattrenExecution();
             //MainExecAbstractFactoryDesignPattren.GetAbstractFactoryDesignpattrenExecution();
